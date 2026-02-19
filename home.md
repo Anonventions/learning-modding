@@ -11,7 +11,7 @@ Welcome to the **Comprehensive Minecraft Modding Wiki**. This wiki provides exha
 |---|---|
 | [0. Introduction & Overview](0.-Introduction-Overview) | **START HERE** — The modding landscape, ecosystem evolution, and what makes 1.21 different |
 | [1. Environment Setup](1.-Environment-Setup) | Java 21 JDK configuration, IntelliJ integration, Gradle fundamentals, and mappings |
-| [2. Mod Loaders](2.-Mod-Loaders) | Forge vs Fabric vs NeoForge — architectural philosophies, performance, and use cases |
+| [2. Mod Loaders](2.-Mod-Loaders) | Forge (primary), Fabric, and NeoForge — architectural philosophies, performance, and use cases |
 
 ### **Core Architecture**
 | Page | Description |
@@ -29,7 +29,7 @@ Welcome to the **Comprehensive Minecraft Modding Wiki**. This wiki provides exha
 ### **Advanced Topics**
 | Page | Description |
 |---|---|
-| [8. Example Mod Setup](8.-Example-Mod-Setup) | Complete walkthrough of a NeoForge mod project structure |
+| [8. Example Mod Setup](8.-Example-Mod-Setup) | Complete walkthrough of a Forge mod project structure |
 | [9. Registry Systems](9.-Registry-Systems) | Creating blocks, items, entities, dimensions, and custom registries |
 | [10. Events & Networking](10.-Events-Networking) | Event buses, network packets, and client-server synchronization |
 
@@ -40,7 +40,7 @@ Welcome to the **Comprehensive Minecraft Modding Wiki**. This wiki provides exha
 ### **I'm completely new to modding**
 1. Read [0. Introduction & Overview](0.-Introduction-Overview)
 2. Follow [1. Environment Setup](1.-Environment-Setup)
-3. Choose a loader in [2. Mod Loaders](2.-Mod-Loaders)
+3. Use Forge in [2. Mod Loaders](2.-Mod-Loaders)
 4. Set up your first project with [8. Example Mod Setup](8.-Example-Mod-Setup)
 
 ### **I'm porting a 1.20.x mod to 1.21+**

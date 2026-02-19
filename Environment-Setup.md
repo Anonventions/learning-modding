@@ -47,10 +47,12 @@ If you see `32-Bit` anywhere, revisit **File → Project Structure** and confirm
 
 ### Getting an MDK
 
-Download a **Mod Development Kit (MDK)** from your chosen mod loader:
+Download a **Mod Development Kit (MDK)** for Forge:
 
-- **NeoForge MDK:** [https://neoforged.net](https://neoforged.net)
-- **Fabric:** Use the [Fabric Template Mod Generator](https://fabricmc.net/develop/template/)
+- **Forge MDK:** [https://files.minecraftforge.net](https://files.minecraftforge.net)
+  - Select your Minecraft version (1.20.x or 1.21+)
+  - Download the MDK file
+- **Alternative - Fabric:** [Fabric Template Mod Generator](https://fabricmc.net/develop/template/)
 
 Extract the MDK to a folder on your machine.
 

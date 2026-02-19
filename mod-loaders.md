@@ -8,29 +8,31 @@ Minecraft has no official modding API. **Mod loaders** fill that role — they b
 
 ## The Three Main Loaders
 
-| Loader | Best for | Update speed | Overhead |
-|---|---|---|---|
-| **Forge** | Large, established content mods | Slow | High |
-| **Fabric** | Lightweight / performance mods | Very fast | Minimal |
-| **NeoForge** | Modern content mods (1.21+) | Fast | Moderate |
+| Loader | Best for | Update speed | Ecosystem | Recommendation |
+|---|---|---|---|---|
+| **Forge** | Large content mods, extensive features | Moderate | Largest | ⭐ **PRIMARY** |
+| **Fabric** | Lightweight / performance mods | Very fast | Growing | Specialized use |
+| **NeoForge** | Modern 1.21+ exclusive mods | Fast | Small but growing | New projects only |
 
 ---
 
 ## Forge
 
-Forge is the oldest and most established loader. It aggressively patches the vanilla engine at runtime to provide a vast, highly abstracted API and event bus.
+Forge is the oldest, most established, and **recommended loader for new modders**. It aggressively patches the vanilla engine at runtime to provide a vast, highly abstracted API and event bus.
 
 **Strengths:**
-- Enormous existing mod ecosystem
-- Comprehensive, mature event and registry APIs
-- Well-documented for legacy versions
+- ⭐ **Enormous, mature ecosystem** — most mods exist for Forge
+- ⭐ **Comprehensive, well-documented APIs** — extensive event and registry systems
+- ⭐ **Best for complex content mods** — extensive features built-in
+- Active community with decades of collective knowledge
+- Vast library of third-party libraries and utilities
 
 **Weaknesses:**
-- Slowest to update to new Minecraft versions
-- Heavy abstraction layer introduces noticeable performance overhead
-- Legacy codebase accumulated significant technical debt, leading to the NeoForge fork
+- Slower to update to brand-new Minecraft versions (typically 1-2 weeks after release)
+- Heavy abstraction layer introduces some performance overhead (negligible for most projects)
+- Larger codebase can be intimidating for beginners
 
-> 📝 For new projects targeting 1.21+, Forge is generally **not recommended**. NeoForge is its modern successor.
+> 📝 **For new projects targeting 1.20.x-1.21+, Forge is the recommended choice for most developers.** It has the largest ecosystem, most tutorials, and most community support.
 
 ---
 
@@ -98,19 +100,23 @@ Regardless of the loader you choose, the IntelliJ workflow is identical after th
 
 ## Quick Decision Guide
 
-```
-Are you building a performance or client-side tweak?
-  └─ Yes → Fabric
+**Starting a new mod?** → **Use Forge** (unless you have a specific reason not to)
 
-Are you starting a new content mod for 1.21+?
-  └─ Yes → NeoForge
+**Why Forge:**
+- Largest existing ecosystem (90%+ of Forge mods)
+- Most tutorials and community help
+- Most third-party libraries and tools
+- Best for complex content mods
 
-Do you need to support an existing Forge mod ecosystem?
-  └─ Yes → Forge (but consider porting to NeoForge long-term)
+**Choose Fabric instead if:**
+- Building performance/optimization mod
+- Need immediate snapshot compatibility
+- Want minimal dependencies and overhead
 
-Do you need both Fabric and NeoForge support?
-  └─ Yes → See Cross-Platform Mods
-```
+**Choose NeoForge if:**
+- Specifically need 1.21+ exclusive features
+- Want cutting-edge Java paradigms
+- Starting completely fresh (not porting Forge code)
 
 ---
 

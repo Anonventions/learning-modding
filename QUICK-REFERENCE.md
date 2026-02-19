@@ -317,7 +317,7 @@ src/main/java/com/example/mymod/
 └── event/ModEvents.java
 
 src/main/resources/
-├── META-INF/neoforge.mods.toml         (metadata)
+├── META-INF/mods.toml                  (metadata)
 ├── assets/mymod/
 │   ├── lang/en_us.json
 │   ├── models/item/                    (item JSON files)
@@ -333,7 +333,7 @@ src/main/resources/
 
 ```properties
 minecraft_version=1.21.5
-neoforge_version=21.5.26
+forge_version=51.0.35
 mapping_channel=official
 mapping_version=1.21.5
 
@@ -346,7 +346,7 @@ mod_description=My awesome mod
 
 ---
 
-## 🏷️ neoforge.mods.toml Template
+## 🏷️ mods.toml Template
 
 ```toml
 [[mods]]
@@ -361,9 +361,9 @@ My awesome mod description.
 '''
 
 [[dependencies.mymod]]
-    modId="neoforge"
+    modId="forge"
     mandatory=true
-    versionRange="[21.5,)"
+    versionRange="[51.0,)"
     ordering="NONE"
     side="BOTH"
 ```

@@ -29,7 +29,7 @@ This document provides a complete file listing and navigation guide for the Mine
 
 | # | File | Topics | Duration |
 |---|---|---|---|
-| **2** | [**Mod Loaders**](mod-loaders.md) | <ul><li>Forge: established, comprehensive, slow</li><li>Fabric: lightweight, fast, minimal</li><li>NeoForge: modern, balanced, recommended for 1.21+</li><li>Trade-offs and decision matrix</li><li>IntelliJ workflow for each loader</li><li>Useful IDE shortcuts</li></ul> | 30-45 min |
+| **2** | [**Mod Loaders**](mod-loaders.md) | <ul><li>Forge: oldest, largest ecosystem, recommended</li><li>Fabric: lightweight, fast, minimal</li><li>NeoForge: modern, balanced, 1.21+ exclusive</li><li>Trade-offs and decision matrix</li><li>IntelliJ workflow for each loader</li><li>Useful IDE shortcuts</li></ul> | 30-45 min |
 | **3** | [**Cross-Platform Mods**](cross-platforms.md) | <ul><li>Multi-loader development rationale</li><li>Architectury framework (with API dependency)</li><li>Multiloader-Template (zero dependencies)</li><li>@ExpectPlatform annotation</li><li>ServiceLoader pattern</li><li>Project structure for both approaches</li></ul> | 1 hour |
 
 ---
@@ -38,7 +38,7 @@ This document provides a complete file listing and navigation guide for the Mine
 
 | # | File | Topics | Duration |
 |---|---|---|---|
-| **4** | [**Porting to 1.21**](porting-to-1.21.md) | <ul><li>Git versioning strategy</li><li>Asset directory standardization (singular vs plural)</li><li>ResourceLocation → Identifier migration</li><li>neoforge.mods.toml changes</li><li>Manual refactoring steps</li><li>Gradle dependency updates</li></ul> | 1-1.5 hours |
+| **4** | [**Porting to 1.21**](porting-to-1.21.md) | <ul><li>Git versioning strategy</li><li>Asset directory standardization (singular vs plural)</li><li>ResourceLocation → Identifier migration</li><li>mods.toml changes</li><li>Manual refactoring steps</li><li>Gradle dependency updates</li></ul> | 1-1.5 hours |
 | **5** | [**Data Component System**](data-component-system.md) | <ul><li>Why NBT was removed (type safety, performance)</li><li>Removal of hardcoded base classes</li><li>Component registration with Codecs</li><li>MapCodec vs StreamCodec</li><li>Network synchronization</li><li>Creating custom components</li></ul> | 1.5-2 hours |
 | **6** | [**Writing Recipes**](writing-recipes.md) | <ul><li>Recipe JSON structure</li><li>Shaped crafting matrices</li><li>Shapeless recipes</li><li>Smelting, smoking, blasting</li><li>Stonecutting and custom recipe types</li><li>Recipe conditions</li><li>Datagen for programmatic generation</li><li>Error handling and debugging</li></ul> | 1 hour |
 | **7** | [**Custom Totem of Undying**](writing-recipes-totem-example.md) | <ul><li>Vanilla resurrection logic (hardcoded in LivingEntity)</li><li>Legacy approach: Event interception + Mixins</li><li>Legacy approach: Custom network packets</li><li>Modern approach: death_protection component</li><li>Advantages of data-driven design</li><li>End-to-end example implementation</li></ul> | 1.5-2 hours |

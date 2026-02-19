@@ -23,11 +23,11 @@ This is a **comprehensive, production-ready wiki** for learning to develop Minec
    - **Prerequisites:** Have IntelliJ IDEA installed
 
 3. **[2. Mod Loaders](mod-loaders.md)**
-   - Comparison: Forge vs Fabric vs NeoForge
+   - Comparison: Forge (primary), Fabric, and NeoForge
    - Architectural philosophies and trade-offs
    - Performance implications and update speed
    - Decision guide for choosing your platform
-   - **Decision point:** Which loader to target?
+   - **Decision point:** Why Forge is recommended for most
 
 4. **[3. Cross-Platform Mods](cross-platforms.md)**
    - Supporting both Fabric and NeoForge
@@ -40,7 +40,7 @@ This is a **comprehensive, production-ready wiki** for learning to develop Minec
    - Git versioning and workspace management
    - Asset directory standardization (singular vs plural)
    - ResourceLocation → Identifier API migration
-   - Updating metadata files (neoforge.mods.toml)
+   - Updating metadata files (mods.toml)
    - **For:** Developers migrating legacy mods
 
 6. **[5. Data Component System](data-component-system.md)**
@@ -97,7 +97,7 @@ This is a **comprehensive, production-ready wiki** for learning to develop Minec
 Follow this path in order:
 1. Introduction & Overview (30 min) — Understand the landscape
 2. Environment Setup (1 hour) — Set up your workspace
-3. Mod Loaders (30 min) — Choose NeoForge for new projects
+3. Mod Loaders (30 min) — Use Forge (recommended)
 4. Example Mod Setup (2-3 hours) — Create your first working mod
 5. Registry Systems (1 hour) — Learn proper registration
 6. Events & Networking (1.5 hours) — Add interactivity
@@ -131,7 +131,7 @@ Jump to topics as needed:
 | **Total Code Examples** | 50+ complete, copy-paste-ready samples |
 | **Estimated Read Time** | 6-8 hours for complete beginner |
 | **Primary Target Version** | Minecraft 1.21.5+ |
-| **Primary Loader** | NeoForge (with Fabric notes) |
+| **Primary Loader** | Forge (with Fabric notes) |
 | **IDE Assumption** | IntelliJ IDEA |
 | **Programming Language** | Java 21 |
 
