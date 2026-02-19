@@ -1,8 +1,8 @@
 # 1. Environment Setup
 
-> **Wiki home:** [Home](Home) | **Next:** [Mod Loaders](2.-Mod-Loaders)
+> **Wiki home:** [Home](Home) | **Previous:** [Introduction & Overview](0.-Introduction-Overview) | **Next:** [Mod Loaders](2.-Mod-Loaders)
 
-This page walks you through setting up a complete Minecraft 1.21+ modding workspace inside **IntelliJ IDEA**.
+This page walks you through setting up a complete Minecraft 1.21+ modding workspace inside **IntelliJ IDEA**. Proper environment setup is critical—mistakes here will cause cryptic errors later. Follow each step carefully.
 
 ---
 
